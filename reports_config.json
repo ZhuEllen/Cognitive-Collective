@@ -1,0 +1,28 @@
+{
+    "reports": [
+        {
+            "name": "2023_Barclays_Global_Reporting_Index_GRI.zip",
+            "type": "ESG",
+            "prompt": "Analyze the report content for potential financial scenarios considering environmental and sustainability factors."
+        },
+        {
+            "name": "2023_Barclays_Suistainability_Accounting_Standards_Board.zip",
+            "type": "ESG",
+            "prompt": "Assess the report insights and generate scenarios based on current economic factors and sustainability trends."
+        },
+        {
+            "name": "Barclays_Climate_Strategy_Targets_and_Progress_2022.zip",
+            "type": "ESG",
+            "prompt": "Based on climate strategy targets, evaluate how economic conditions may impact financial performance and risk."
+        }
+    ],
+    "openai_settings": {
+        "endpoint": "https://genai-openai-cognitivecollective.openai.azure.com/",
+        "api_key": "406ba917955d40ae9a476c2f432af0f9",
+        "deployment_id": "gpt-35-turbo"
+    },
+    "models": {
+        "summarizer": "facebook/bart-large-cnn",
+        "sentiment_analyzer": "distilbert-base-uncased"
+    }
+}
